@@ -26,7 +26,7 @@ public:
 private:
 	RenderWindow m_window;
 	GameState* m_currentState;
-	//array<GameState*, GameState::Count> m_gameStates;
+	array<GameState*, GameState::Count> m_gameStates;
 
 	Font m_font;
 	Texture m_logo;
